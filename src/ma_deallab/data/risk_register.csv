@@ -1,0 +1,5 @@
+issue_id,area,description,severity,status,recommended_action,is_synthetic
+R01,commercial,Top customer 27% of LTM revenue,HIGH,UNRESOLVED,customer retention/downside scenario,true
+R02,financial,Accounts receivable aging/possible impairment,HIGH,UNRESOLVED,aging review and EBITDA/NWC overlap check,true
+R03,legal_tax,Potential R$2mi contested tax item,MEDIUM,UNRESOLVED,tax counsel review before debt-like classification,true
+R04,operational,Founder retention and tech IP ownership,MEDIUM,UNRESOLVED,key person/vesting/IP DD,true

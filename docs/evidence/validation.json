@@ -1,0 +1,68 @@
+{
+  "artifact_integrity": {
+    "artifacts": 37,
+    "run_id": "d1c9041820f20f1051fa",
+    "status": "PASS"
+  },
+  "as_of": "2026-09-30",
+  "data_class": "SYNTHETIC",
+  "date": "2026-11-11",
+  "dependencies": {
+    "PyMuPDF": "1.27.2.3",
+    "XlsxWriter": "3.2.9",
+    "openpyxl": "3.1.5",
+    "pandas": "2.2.3",
+    "plotly": "6.5.1",
+    "pytest": "9.0.1",
+    "python-pptx": "1.0.2",
+    "reportlab": "4.5.1",
+    "ruff": "0.15.22",
+    "streamlit": "1.54.0"
+  },
+  "not_run": [
+    "Docker runtime",
+    "Live CVM download",
+    "Real market quotes",
+    "Production authentication"
+  ],
+  "pdf_pages": {
+    "anonymous_teaser": 1,
+    "closing": 3,
+    "dd": 6,
+    "ic": 4,
+    "valuation": 4
+  },
+  "platform": "Windows",
+  "powerpoint": {
+    "cim_slides": 16,
+    "management_slides": 10,
+    "native_render": "PASS"
+  },
+  "pytest": {
+    "command": "py -3.10 -m pytest -q -p no:cacheprovider",
+    "passed": 69
+  },
+  "python": "3.10.8",
+  "remote_ci": {
+    "status": "See current GitHub Actions execution",
+    "workflow": "https://github.com/Yuri-Fernando/M-A-Investment-Banking/actions/workflows/ci.yml"
+  },
+  "ruff": {
+    "command": "py -3.10 -m ruff check src tests scripts",
+    "status": "PASS"
+  },
+  "run_id": "d1c9041820f20f1051fa",
+  "source_hash_verification": {
+    "current_core_files_verified": 31,
+    "files_copied": 86,
+    "post_snapshot_change": "Plotly initialization fixture in tests/test_dashboard.py",
+    "status": "PASS_AT_COPY"
+  },
+  "validation_location": "local temporary mirror; code and synthetic fixture hashes matched the source checkout",
+  "workbook": {
+    "formulas_per_scenario": 518,
+    "native_excel_total": 1554,
+    "status": "PASS",
+    "tabs_per_scenario": 33
+  }
+}

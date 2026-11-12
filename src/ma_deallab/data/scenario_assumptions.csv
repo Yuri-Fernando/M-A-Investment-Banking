@@ -1,0 +1,15 @@
+scenario,driver,value,unit,classification
+downside,fy2027_revenue_growth_pct,5.0,percent,ANALYST_ASSUMPTION
+base,fy2027_revenue_growth_pct,12.0,percent,ANALYST_ASSUMPTION
+upside,fy2027_revenue_growth_pct,18.0,percent,ANALYST_ASSUMPTION
+downside,ebitda_margin_terminal_pct,17.0,percent,ANALYST_ASSUMPTION
+base,ebitda_margin_terminal_pct,22.0,percent,ANALYST_ASSUMPTION
+upside,ebitda_margin_terminal_pct,25.0,percent,ANALYST_ASSUMPTION
+downside,capex_revenue_pct,8.0,percent,ANALYST_ASSUMPTION
+base,capex_revenue_pct,6.0,percent,ANALYST_ASSUMPTION
+upside,capex_revenue_pct,5.0,percent,ANALYST_ASSUMPTION
+downside,nwc_revenue_pct,11.0,percent,ANALYST_ASSUMPTION
+base,nwc_revenue_pct,9.0,percent,ANALYST_ASSUMPTION
+upside,nwc_revenue_pct,7.0,percent,ANALYST_ASSUMPTION
+base,simplified_tax_pct,34.0,percent,ANALYST_ASSUMPTION
+base,illustrative_bid_ev_brl_millions,160.0,BRL_millions,ANALYST_ASSUMPTION

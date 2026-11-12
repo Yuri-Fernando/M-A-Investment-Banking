@@ -1,0 +1,4 @@
+issue_id,period_end,description,amount_brl_millions,sign,status,evidence_id,cash_effect,data_class
+Q01,2025-12-31,One-off ERP implementation cost,0.8,+,PROPOSED,DEMO_Q01_INVOICE,possible,SYNTHETIC
+Q02,2025-12-31,Founder compensation below market,0.6,-,PROPOSED,DEMO_Q02_COMP_BENCH,future,SYNTHETIC
+Q03,2026-09-30,Top customer 27% of LTM revenue,,NONE,RISK_ONLY,DEMO_Q03_CUSTOMER,scenario,SYNTHETIC

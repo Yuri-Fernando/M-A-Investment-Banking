@@ -1,0 +1,130 @@
+{
+  "as_of": "2026-09-30",
+  "bridge": {
+    "cash": 11000000.0,
+    "debt_like": 0,
+    "equity": 153000000.0,
+    "ev": 160000000.0,
+    "financial_debt": 18000000.0,
+    "mechanism": "completion_accounts",
+    "nwc_adjustment": 0,
+    "nwc_status": "UNAGREED_NO_MONTHLY_DATA",
+    "seller_fees": 0
+  },
+  "consideration": {
+    "all_in_equity": 153000000.0,
+    "allocation_residual": 4.6566128730773926e-09,
+    "earnout_cap": 15000000,
+    "earnout_pv": 5671077.504725899,
+    "escrow": 7366446.124763705,
+    "maximum_nominal_consideration": 162328922.4952741,
+    "retained_equity": 0.0,
+    "rollover": 0.0,
+    "seller_cash_now": 139962476.3705104,
+    "stake": 1,
+    "upfront_funded": 147328922.4952741
+  },
+  "contract_nwc": 10000000.0,
+  "currency": "BRL",
+  "ltm": {
+    "cash_opex": 24200000.0,
+    "cogs": 53200000.0,
+    "depreciation_amortization": 3800000.0,
+    "ebit": 17800000.0,
+    "ebitda": 21600000.0,
+    "income_taxes": 5134000.0,
+    "net_income": 9966000.0,
+    "net_interest_expense": 2700000.0,
+    "net_revenue": 99000000.0,
+    "pretax_income": 15100000.0
+  },
+  "net_debt": 7000000.0,
+  "operating_nwc": 8000000.0,
+  "run_id": "d1c9041820f20f1051fa",
+  "scenarios": {
+    "base": {
+      "decision": "WALK_AWAY",
+      "ev": 104544086.15752682,
+      "terminal_g": 0.04,
+      "wacc": 0.15316000000000002
+    },
+    "downside": {
+      "decision": "WALK_AWAY",
+      "ev": 40631509.454996355,
+      "terminal_g": 0.04,
+      "wacc": 0.15316000000000002
+    },
+    "upside": {
+      "decision": "PROCEED_CONDITIONAL",
+      "ev": 164510322.86332142,
+      "terminal_g": 0.04,
+      "wacc": 0.15316000000000002
+    }
+  },
+  "sources": {
+    "risk_register.csv": {
+      "available_at": "2026-09-30",
+      "classification": "SYNTHETIC",
+      "entity_id": "NEXAOPS_SYNTH",
+      "scope": "SYN",
+      "sha256": "5ca76ce7e510f399a2bc8a87c6394e979fe15ae9155c3b9ea9c6b71491aa49a9",
+      "source": "examples/risk_register.csv",
+      "unit": "BRL_millions in fixtures"
+    },
+    "scenario_assumptions.csv": {
+      "available_at": "2026-09-30",
+      "classification": "ANALYST_ASSUMPTION",
+      "entity_id": "NEXAOPS_SYNTH",
+      "scope": "SYN",
+      "sha256": "a86a3906607b7f15da7458e530dc5cc12b40df67cc7ecc4349a10f9d56d6286f",
+      "source": "examples/scenario_assumptions.csv",
+      "unit": "BRL_millions in fixtures"
+    },
+    "synthetic_balance_sheet.csv": {
+      "available_at": "2026-09-30",
+      "classification": "SYNTHETIC",
+      "entity_id": "NEXAOPS_SYNTH",
+      "scope": "SYN",
+      "sha256": "46de4cec9e5158b36b0a333ee94e6c33a0ea3c726ed2bcd2dc8c13c916944847",
+      "source": "examples/synthetic_balance_sheet.csv",
+      "unit": "BRL_millions in fixtures"
+    },
+    "synthetic_cash_flow.csv": {
+      "available_at": "2026-09-30",
+      "classification": "SYNTHETIC",
+      "entity_id": "NEXAOPS_SYNTH",
+      "scope": "SYN",
+      "sha256": "db034ee03b653f9fc5621d4f32aca7fe689352c2aec40cb085b9ef253006c4b4",
+      "source": "examples/synthetic_cash_flow.csv",
+      "unit": "BRL_millions in fixtures"
+    },
+    "synthetic_deal_events.csv": {
+      "available_at": "2026-09-30",
+      "classification": "SYNTHETIC",
+      "entity_id": "NEXAOPS_SYNTH",
+      "scope": "SYN",
+      "sha256": "b54542054dad78847176ce287d745b0396a2cd69dc944a5fa432b79059f5e767",
+      "source": "examples/synthetic_deal_events.csv",
+      "unit": "BRL_millions in fixtures"
+    },
+    "synthetic_income_statement.csv": {
+      "available_at": "2026-09-30",
+      "classification": "SYNTHETIC",
+      "entity_id": "NEXAOPS_SYNTH",
+      "scope": "SYN",
+      "sha256": "85f134572614756a30278bbe6b6980043b3e3cc885cda67fe2c96a1005225413",
+      "source": "examples/synthetic_income_statement.csv",
+      "unit": "BRL_millions in fixtures"
+    },
+    "synthetic_qoe_adjustments.csv": {
+      "available_at": "2026-09-30",
+      "classification": "SYNTHETIC",
+      "entity_id": "NEXAOPS_SYNTH",
+      "scope": "SYN",
+      "sha256": "c0990e659a8bdd156145feeb0620fcff8b6926a3368acadad5bbbdae1d8512a0",
+      "source": "examples/synthetic_qoe_adjustments.csv",
+      "unit": "BRL_millions in fixtures"
+    }
+  },
+  "unit": "BRL"
+}

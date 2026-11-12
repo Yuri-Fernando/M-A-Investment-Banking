@@ -1,0 +1,35 @@
+{
+  "run_id": "d1c9041820f20f1051fa",
+  "excel": {
+    "downside": {
+      "status": "PASS",
+      "formulas": 518,
+      "max_abs_error": 2.842170943040401e-14,
+      "application_version": "16.0"
+    },
+    "base": {
+      "status": "PASS",
+      "formulas": 518,
+      "max_abs_error": 8.526512829121202e-14,
+      "application_version": "16.0"
+    },
+    "upside": {
+      "status": "PASS",
+      "formulas": 518,
+      "max_abs_error": 2.842170943040401e-14,
+      "application_version": "16.0"
+    }
+  },
+  "powerpoint": {
+    "cim": {
+      "status": "PASS",
+      "slides": 16,
+      "text_overflow": []
+    },
+    "management": {
+      "status": "PASS",
+      "slides": 10,
+      "text_overflow": []
+    }
+  }
+}

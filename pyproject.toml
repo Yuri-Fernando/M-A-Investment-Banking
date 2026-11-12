@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ma-deallab-brazil"
+version = "1.0.0"
+description = "Local synthetic Brazilian M&A financial modelling and execution"
+requires-python = ">=3.10,<3.11"
+dependencies = ["pandas>=2.2,<3", "streamlit>=1.40,<2", "plotly>=5.24,<7", "XlsxWriter>=3.2,<4", "openpyxl>=3.1,<4", "python-pptx>=1.0,<2", "reportlab>=4,<5"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "ruff>=0.9,<1", "PyMuPDF>=1.25,<2"]
+
+
+docs = ["matplotlib>=3.8,<4", "Pillow>=10,<13"]
+office = ["pywin32>=306; sys_platform == 'win32'"]
+
+[project.scripts]
+ma-deallab = "ma_deallab.cli:main"
+
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+ma_deallab = ["data/*.csv"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py310"
